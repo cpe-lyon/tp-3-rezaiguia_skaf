@@ -41,7 +41,8 @@ script :
 >echo "non installé"
 >fi
 
-## Exercice 4 
+
+## Exercice 4 
 
 Pour afficher toutes les commandes fournies avec le package coreutils, on utilise la commande : 
 > dpkg -L coreutis
