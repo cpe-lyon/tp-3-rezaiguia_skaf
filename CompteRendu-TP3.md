@@ -48,3 +48,7 @@ Pour afficher toutes les commandes fournies avec le package coreutils, on utilis
 > dpkg -L coreutis
 
 La commande '[' est un alias de test et doit se terminer par ']'
+
+## Exercice 6 
+
+Le fichier contient *deb http://ppa.launchpad.net/linuxuprising/java/ubuntu eoan main* qui correspond à un nouveau répértoire personnel (celui de Java en l'occurence). 
