@@ -34,9 +34,16 @@ script :
 
 ## Exercice 3
 
-> if [ $(dpkg -s $1 | grep 'Status' | cut -d "k" -f 2) = "installed" ]; 
+> if  [ $(dpkg -s $1 | grep 'Status' | cut -d "k" -f 2) = "installed" ] ; 
 >then 
 >echo "Installé"
 >else
 >echo "non installé"
 >fi
+
+## Exercice 4 
+
+Pour afficher toutes les commandes fournies avec le package coreutils, on utilise la commande : 
+> dpkg -L coreutis
+
+La commande '[' est un alias de test et doit se terminer par ']'
